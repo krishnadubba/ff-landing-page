@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  swcMinify: false,
+  experimental: {
+    forceSwcTransforms: false,
+  },
+  compiler: {
+    removeConsole: false,
+  },
   images: {
     remotePatterns: [
       {
@@ -14,6 +19,10 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "github.com",
+      },
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
       },
     ],
   },
