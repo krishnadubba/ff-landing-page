@@ -59,7 +59,7 @@ export const FeaturesSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-      Face Fantasy isn't just another photo editor - we're the premier platform for private, intimate face swapping. Our advanced AI technology combined with absolute privacy protection makes your deepest fantasies achievable with just a few taps.
+      Face Fantasy isn&apos;t just another photo editor - we&apos;re the premier platform for private, intimate face swapping. Our advanced AI technology combined with absolute privacy protection makes your deepest fantasies achievable with just a few taps.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
