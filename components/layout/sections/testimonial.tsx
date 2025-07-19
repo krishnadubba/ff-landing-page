@@ -19,7 +19,7 @@ import { Star } from "lucide-react";
 interface ReviewProps {
   image: string;
   name: string;
-  userName: string;
+  userName?: string;
   comment: string;
   rating: number;
 }
@@ -28,7 +28,6 @@ const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
     name: "Kyle D",
-    // userName: "Product Manager",
     comment:
       "Face Fantasy is a great tool for creating face swaps. It's easy to use and the results are great.",
     rating: 5.0,
@@ -36,7 +35,6 @@ const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
     name: "Caleb C",
-    // userName: "Cybersecurity Analyst",
     comment:
       "Before Face Fantasy, I was using a lot of other tools to create face swaps. But Face Fantasy replaces all of them and is the best I've used so far.",
     rating: 4.8,
@@ -45,7 +43,6 @@ const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
     name: "Steve  J",
-    // userName: "Chief Technology Officer",
     comment:
       "Damn, click, click and click. That's all it takes to create a face swap. The Gallery is my favorite feature.",
     rating: 4.9,
@@ -53,7 +50,6 @@ const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
     name: "Isha P",
-    // userName: "Data Scientist",
     comment:
       "Easy to create and save face swaps for easy access. I can't believe how easy it is to use, no more download Insta images, upload to websites and then download to local computer and delete after use. Face Fantasy is a must have for anyone who wants to create face swaps. Face Fantasy lets me access my face swaps from anywhere.",
     rating: 5.0,
@@ -61,7 +57,6 @@ const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
     name: "Mat A",
-    // userName: "IT Project Manager",
     comment:
       "We should have a before FF and after FF era! This is a must have for anyone who wants to create face swaps.",
     rating: 5.0,
@@ -69,7 +64,6 @@ const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
     name: "Harry R",
-    // userName: "DevOps Engineer",
     comment:
       "It can't get any easier than this. The support is great and the results are great.",
     rating: 4.9,
@@ -125,7 +119,9 @@ export const TestimonialSection = () => {
 
                     <div className="flex flex-col">
                       <CardTitle className="text-lg">{review.name}</CardTitle>
-                      <CardDescription>{review.userName}</CardDescription>
+                      {review.userName && (
+                        <CardDescription>{review.userName}</CardDescription>
+                      )}
                     </div>
                   </div>
                 </CardHeader>
