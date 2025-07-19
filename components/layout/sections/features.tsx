@@ -11,39 +11,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Quick & Easy",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "The face swap services out there don't provide easy management of your stash. We do because convenience is key.",
   },
   {
     icon: "BadgeCheck",
     title: "Social Proof",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Join thousands of satisfied users who've discovered their perfect digital playground. Our community trusts us for discreet, high-quality face swaps that look incredibly realistic.",
   },
   {
     icon: "Goal",
     title: "Targeted Content",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Every swap is tailored to your desires. Our AI knows how to get the hottest Instagram posts and create swaps that match your exact fantasies and attractions.",
   },
   {
     icon: "PictureInPicture",
-    title: "Strong Visuals",
+    title: "Realistic Results",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Crystal-clear, photo-realistic results that look completely natural. Our advanced AI ensures perfect lighting, skin tones, and facial expressions for swaps so convincing you'll forget they're not real.",
   },
   {
     icon: "MousePointerClick",
     title: "Clear CTA",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Simple one-tap process gets you from desire to satisfaction instantly. No complicated menus or technical knowledge required - just pure, immediate gratification.",
   },
   {
     icon: "Newspaper",
     title: "Clear Headline",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Experience Face Fantasy - where any Instagram post becomes your personal playground. Transform attraction into intimate reality.",
   },
 ];
 
@@ -59,9 +59,7 @@ export const FeaturesSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+      Face Fantasy isn't just another photo editor - we're the premier platform for private, intimate face swapping. Our advanced AI technology combined with absolute privacy protection makes your deepest fantasies achievable with just a few taps.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

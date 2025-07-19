@@ -39,8 +39,8 @@ const routeList: RouteProps[] = [
     label: "Testimonials",
   },
   {
-    href: "#team",
-    label: "Team",
+    href: "#pricing",
+    label: "Pricing",
   },
   {
     href: "#contact",
@@ -54,18 +54,18 @@ const routeList: RouteProps[] = [
 
 const featureList: FeatureProps[] = [
   {
-    title: "Showcase Your Value ",
-    description: "Highlight how your product solves user problems.",
+    title: "Best in class AI",
+    description: "We are the best in class in the market with our AI for face swaps.",
   },
   {
-    title: "Build Trust",
+    title: "Easy to use",
     description:
-      "Leverages social proof elements to establish trust and credibility.",
+      "Our platform is easy to create and maintain your face swap stash.",
   },
   {
-    title: "Capture Leads",
+    title: "One click to ecstasy",
     description:
-      "Make your lead capture form visually appealing and strategically.",
+      "Generate high quality face swaps using Instagram posts and videos with just one click.",
   },
 ];
 
@@ -74,8 +74,14 @@ export const Navbar = () => {
   return (
     <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
       <Link href="/" className="font-bold text-lg flex items-center">
-        <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-        Shadcn
+        <Image
+          src="/logo.png"
+          alt="Face Fantasy Logo"
+          width={36}
+          height={36}
+          className="mr-2"
+        />
+        Face Fantasy
       </Link>
       {/* <!-- Mobile --> */}
       <div className="flex items-center lg:hidden">
@@ -95,8 +101,14 @@ export const Navbar = () => {
               <SheetHeader className="mb-4 ml-4">
                 <SheetTitle className="flex items-center">
                   <Link href="/" className="flex items-center">
-                    <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-                    Shadcn
+                    <Image
+                      src="/logo.png"
+                      alt="Face Fantasy Logo"
+                      width={36}
+                      height={36}
+                      className="mr-2"
+                    />
+                    Face Fantasy
                   </Link>
                 </SheetTitle>
               </SheetHeader>
@@ -174,16 +186,6 @@ export const Navbar = () => {
 
       <div className="hidden lg:flex">
         <ToggleTheme />
-
-        <Button asChild size="sm" variant="ghost" aria-label="View on GitHub">
-          <Link
-            aria-label="View on GitHub"
-            href="https://github.com/nobruf/shadcn-landing-page.git"
-            target="_blank"
-          >
-            <Github className="size-5" />
-          </Link>
-        </Button>
       </div>
     </header>
   );

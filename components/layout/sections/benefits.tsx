@@ -11,27 +11,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "Blocks",
-    title: "Build Brand Trust",
+    title: "Easy use, easy management, easy access",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "App is designed to do everything with a click and manage your stash anytime from anywhere.",
   },
   {
-    icon: "LineChart",
-    title: "More Leads",
+    icon: "Infinity",
+    title: "Unlimited Access Endless Temptation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Every Instagram scroll becomes a treasure hunt. Spot someone irresistible? One tap transforms them into your personal fantasy. Turn any attraction into your private reality.",
   },
   {
     icon: "Wallet",
-    title: "Higher Conversions",
+    title: "Instant Results Instant Satisfaction",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "From desire to fulfillment in under 10 seconds. Our AI creates photo-realistic swaps that look so real, you'll forget they're not. No waiting, no compromises, just pure instant gratification.",
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "Safe Exploration Risk-Free Exploration",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Explore your attractions safely and privately. Experiment with different fantasies without real-world consequences. Your digital playground for adult curiosity and desire.",
   },
 ];
 
@@ -43,12 +43,11 @@ export const BenefitsSection = () => {
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+          Your Secret Digital Playground
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+          Fulfill your deepest desires with AI-powered face swaps. Pick any Instagram post that catches your 
+          eye and place yourself (or anyone) into those intimate moments. Your fantasies, your rules, complete discretion guaranteed..
           </p>
         </div>
 
